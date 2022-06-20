@@ -5,3 +5,5 @@ name = input("Whats your name? ")
 print(f"hello, {name}")
 
 #comments can be pseudo code - plan for the coding..
+#This is pseudo code 
+#Pseudo code is structuring to do list 
