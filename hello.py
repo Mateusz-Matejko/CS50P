@@ -2,7 +2,7 @@
 name = input("Whats your name? ")
 
 #Say hello to the user
-print(" hello,", name)
+print(" hello,", name, "You","Piece","of","cake")
 
 #comments can be pseudo code - plan for the coding..
 #This is pseudo code 
