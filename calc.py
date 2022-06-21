@@ -1,7 +1,8 @@
-# demonstrates math 
-x = 1 
-y = 2
+# demonstrates (unintended) concnentration of strings 
 
-z = x + y 
+x = input("What's x? ")
+y = input("What's y? ")
 
+# print sum 
+z = int(x) + int(y)
 print(z)
