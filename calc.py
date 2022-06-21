@@ -1,8 +1,8 @@
-# demonstrates (unintended) concnentration of strings 
+# Demonstrates nesting of function calls 
 
-x = input("What's x? ")
-y = input("What's y? ")
+x = int(input("What's x? "))
+y = int(input("What's y? "))
 
-# print sum 
-z = int(x) + int(y)
-print(z)
+z = x + y 
+
+print (z)
