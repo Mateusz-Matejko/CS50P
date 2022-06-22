@@ -1,9 +1,11 @@
-#Ask user for that name
-name = input("Whats your name? ")
+# Ask user's for their name
+name = input("What's your name? ").strip().title()
 
-#Say hello to the user
-print(" hello,", name, "You","Piece","of","cake")
+# Ask user's for their surname
+surname = input("What's your surname? ").strip().title()
 
-#comments can be pseudo code - plan for the coding..
-#This is pseudo code 
-#Pseudo code is structuring to do list 
+# chain name and surname together 
+Fname = name + surname 
+
+# Say hello to the user
+print(f"hello, {name} {surname}")
